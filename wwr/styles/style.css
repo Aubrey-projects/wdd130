@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gravitas+One&family=Oswald:wght@200..700&display=swap");
+
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+nav a {
+  text-align: center;
+  color: #feffbd;
+  text-decoration: none;
+  padding: 35px;
+}
+#hero-msg h1,
+#hero-msg h4 {
+  text-align: center;
+}
+.button-box {
+  text-align: center;
+}
+main section {
+  text-align: center;
+  box-sizing: border-box;
+}
+#background {
+  height: 725px;
+}
+body {
+  background-color: #e9fffe;
+  font-size: 22px;
+  font-family: Oswald, Arial, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 0;
+}
+header {
+  background-color: #717933;
+}
+nav a:hover {
+  background-color: #feffbd;
+  color: #583d1e;
+}
+.book,
+.join {
+  background-color: #717933;
+  color: #feffbd;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.book:hover,
+.join:hover {
+  background-color: #feffbd;
+  color: #583d1e;
+}
+#background {
+  background-color: #e9fffe;
+}
+.msg {
+  line-height: 1.5em;
+  padding: 35px;
+  background-color: #e9fffe;
+}
+.msg h2 {
+  color: #717933;
+  font-family: "Gravitas One", Verdana, Arial, sans-serif;
+}
+.msg p {
+  color: #717933;
+  padding-bottom: 15px;
+  font-size: 0.8em;
+}
+footer {
+  background-color: #717933;
+  color: #feffbd;
+  padding: 25px 50px;
+  margin-top: 200px;
+}
+footer a {
+  color: #feffbd;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #e9fffe;
+}
+footer p {
+  font-size: 1.2em;
+}
+footer p a:hover {
+  text-decoration: underline;
+}
+footer .social img {
+  padding-top: 15px;
+}
+.home-title {
+  color: #717933;
+  margin-top: 10px;
+  font-size: 2em;
+  font-family: "Gravitas One", Verdana, Arial, sans-serif;
+}
+h4 {
+  color: #717933;
+}
+.logo {
+  width: 80px;
+}
+.icon {
+  width: 80px;
+  padding-top: 10px;
+}
+#hero-img {
+  width: 100%;
+}
+#logo_link {
+  padding-top: 5px;
+}
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
+}
+.card-img {
+  border: 10px solid #000000;
+}
