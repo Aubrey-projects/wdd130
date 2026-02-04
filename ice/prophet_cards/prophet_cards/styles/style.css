@@ -1,40 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+
 body {
     background-color: #FFECD7;
 }
 #card {
     background-color: #008DB1;
-    border-radius: 20px;
-    border: 5px solid #004e63;
-    padding: 50px;
+    border-radius: 40px;
+    border: 6px solid #004e63;
+    padding: 45px;
     width: 400px;
     margin: 0 auto;
 }
+.list {
+    display: grid;
+    justify-self: center;
+}
 img {
-    width: 200px;
+    width: 300px;
     display: block;
     margin: 0 auto;
     border: 5px solid white;
 }
 h1 {
     color: #fffffe;
-    font-family: Helvetica;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 3em;
     text-align: center;
 }
 h2 {
     color: #91E4FB;
-    font-family: Helvetica;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.3em;
+    text-align: center;
 }
 ul {
     color: #fffffe;
-    font-family: Helvetica;
+    font-size: 1.5em;
+    font-family: Helvetica, Arial, sans-serif;
 }
 p {
     color: #ffd783;
-    font-family: "Brush Script MT", "Nanum Brush Script";
+    font-family: "Nanum Brush Script", "Brush Script MT", sans-serif;
     text-align: center;
+    font-size: 1.6em;
 }
 .website {
     color: #91E4FB;
-    font-family: Helvetica;
+    font-family: Helvetica, Arial, sans-serif;
     text-decoration: none;
 }
