@@ -1,0 +1,75 @@
+/* Main fonts */
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+/* Backup fonts */
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Shadows+Into+Light&display=swap');
+
+body {
+    background-image: url("../images/valentines.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+img {
+    opacity: 0;
+    height: 200px;
+    width: 200px;
+    grid-column: 1 / -1;
+}
+header {
+    display: grid;
+    background-color: #59434C;
+    padding: 35px;
+    opacity: 0.8;
+}
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 1.8em;
+    color: white;
+    list-style-type: none;
+    font-family: "Emilys Candy", "Dancing Script", "Brush Script MT", sans-serif;
+}
+li:hover {
+    font-size: 1.1em;
+}
+h1 {
+    color: white;
+    justify-self: center;
+    font-family: "Emilys Candy", "Dancing Script", "Brush Script MT", sans-serif;
+    font-size: 5em;
+    grid-column: 1 / -1;
+    text-shadow: 10px 10px 8px #59434C;
+}
+footer {
+    display: grid;
+    background-color: #59434C;
+    color: #FEF9CA;
+    padding: 15px;
+    opacity: 0.8;
+    font-size: 1.3em;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+section {
+    background-color: #FEF9CA;
+    color: #59434C;
+    box-shadow: 10px 10px 8px #59434C;
+}
+h2 {
+    padding: 20px;
+    font-family: "Emilys Candy", "Dancing Script", "Brush Script MT", sans-serif;
+    font-size: 1.8em;
+}
+p {
+    font-family: "Indie Flower", "Shadows Into Light", Arial, sans-serif;
+    padding: 20px;
+    font-size: 20px;
+}
