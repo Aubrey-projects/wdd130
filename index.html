@@ -8,11 +8,83 @@
 
     </head>
     <body>
-        <h1>Welcome to my page</h1>
-        <p>This is my paragraph.</p>
-        <h2>Part 1</h2>
-        <p>This is my 2nd paragraph.</p>
-        <img src="images/html logo.png" alt="Web Logos">
-
+        <header>
+            <nav>
+                <a id="web_logo" href="">
+                    <img class="logo" src="images/html logo.png" alt="Web Logo">
+                </a>
+                <a href="">Home</a>
+                <a href="wwr/index.html">WWR</a>
+                <a href="ice/prophet_cards/prophet_cards/nelson.html">Ice</a>
+                <a href="">About me</a>
+            </nav>
+        </header>
+        <main>
+            <div class="slideshow">
+                <div class="slide">
+                    <div class="slide_number">1 / 4</div>
+                    <img src="" alt="">
+                    <div class="slide_text">
+                        <h1>Home</h1>
+                        <p>This is a portal page to all of my projects while taking this Web Fundamentals class.</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide_number">2 / 4</div>
+                    <img src="" alt="">
+                    <div class="slide_text">
+                        <h1>WWR</h1>
+                        <p>This is a website on booking a White Water Rafting appointment and the various other attractions they have.</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide_number">3 / 4</div>
+                    <img src="" alt="">
+                    <div class="slide_text">
+                        <h1>Ice</h1>
+                        <p>These are the various html and css coding challenges that we've done as a part of this Web Fundamentals course.</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide_number">4 / 4</div>
+                    <img src="" alt="">
+                    <div class="slide_text">
+                        <h1>About Me</h1>
+                        <p>This is a web page about myself and how I got into coding.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="previous" onclick="plus_slides(-1)">&#10094;</a>
+            <a class="next" onclick="plus_slides(1)">&#10095;</a>
+            <h2>Table</h2>
+            <table>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr>
+            <tr>
+                <th>?</th>
+                <th>?</th>
+                <th>?</th>
+            </tr>
+            <tr>
+                <th>?</th>
+                <th>?</th>
+                <th>?</th>
+            </tr>
+            </table>
+            <img src="" alt="">
+            <h3>Big Image Header</h3>
+            <p>This is the text for the big image</p>
+            <img src="" alt="">
+            <p>This paragraph goes with the image above it.</p>
+            <img src="" alt="">
+            <p>This paragraph goes with the image above it.</p>
+        </main>
+        <footer>
+            <img class="logo" src="images/html logo.png" alt="Web Logo">
+            <p>copyright</p>
+        </footer>
     </body>
 </html>
