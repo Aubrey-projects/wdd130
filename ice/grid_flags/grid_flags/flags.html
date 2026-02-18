@@ -74,6 +74,141 @@
             background: white;
             clip-path: polygon(50% 0, 79% 90%, 2% 35%, 98% 35%, 21% 90%);
         }
+
+        #denmark {
+            display: grid;
+            grid-template-columns: 1fr 0.25fr 1fr 1fr;
+            grid-template-rows: 1fr 0.25fr 1fr;
+            background: white;
+            height: 200px;
+            width: 300px;
+        }
+        #dred1 {
+           background: red;
+           grid-column: 1/2;
+        }
+        #dred2 {
+            background: red;
+            grid-column: 3/5;
+        }
+        #dred3 {
+            background: red;
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+        #dred4 {
+            background: red;
+            grid-column: 3/5;
+            grid-row: 3/4;
+        }
+
+        #finland {
+            display: grid;
+            background: blue;
+            grid-template-columns: 1fr 0.5fr 1fr 1fr;
+            grid-template-rows: 1fr 0.5fr 1fr;
+            height: 200px;
+            width: 300px;
+        }
+        #fwhite1 {
+            background: white;
+            grid-column: 1/2;
+        }
+        #fwhite2 {
+            background: white;
+            grid-column: 3/5;
+        }
+        #fwhite3 {
+            background: white;
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+        #fwhite4 {
+            background: white;
+            grid-column: 3/5;
+            grid-row: 3/4;
+        }
+
+        #benin {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            height: 200px;
+            width: 300px;
+        }
+        #bgreen {
+            background: green;
+            grid-row: 1/3;
+        }
+        #byellow {
+            background: yellow;
+        }
+        #bred {
+            background: red;
+        }
+
+        #italy {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            height: 200px;
+            width: 300px;
+        }
+        #igreen {
+            background: green;
+            grid-column: 1/2;
+        }
+        #iwhite {
+            background: white;
+            grid-column: 2/3;
+        }
+        #ired {
+            background: red;
+            grid-column: 3/4;
+        }
+        
+        #car {
+            display: grid;
+            grid-template-columns: 1fr 0.35fr 1fr;
+            grid-template-rows: repeat(4, 1fr);
+            height: 200px;
+            width: 300px;
+        }
+        #cblue {
+            background: blue;
+            grid-column: 1/4;
+            grid-row: 1/2;
+        }
+        #cwhite {
+            background: white;
+            grid-column: 1/4;
+            grid-row: 2/3;
+        }
+        #cgreen {
+            background: green;
+            grid-column: 1/4;
+            grid-row: 3/4;
+        }
+        #cyellow {
+            background: gold;
+            grid-column: 1/4;
+            grid-row: 4/5;
+        }
+        #cred {
+            background: red;
+            grid-column: 2/3;
+            grid-row: 1/5;
+            order: 1;
+        }
+        #cstar {
+            justify-self: center;
+            grid-column: 1/2;
+            grid-row: 1/2;
+            width: 50px;
+            aspect-ratio: 1;
+            background: gold;
+            clip-path: polygon(50% 0, 79% 90%, 2% 35%, 98% 35%, 21% 90%);
+            order: 1;
+            
+        }
     </style>
 </head>
 
@@ -115,6 +250,25 @@
             <div id="bgreen"></div>
             <div id="byellow"></div>
             <div id="bred"></div>
+        </div>
+        <hr>
+
+        <h2>Italy</h2>
+        <div id="italy">
+            <div id="igreen"></div>
+            <div id="iwhite"></div>
+            <div id="ired"></div>
+        </div>
+        <hr>
+
+        <h2>C.A.R.</h2>
+        <div id="car">
+            <div id="cblue"></div>
+            <div id="cwhite"></div>
+            <div id="cgreen"></div>
+            <div id="cyellow"></div>
+            <div id="cred"></div>
+            <div id="cstar"></div>
         </div>
         <hr>
     </main>
