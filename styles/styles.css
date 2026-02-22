@@ -98,8 +98,38 @@ p {
 }
 footer {
     display: grid;
+    grid-template-columns: repeat(3, 0.25fr) 1fr;
+    grid-template-rows: 2fr;
+    background-color: #F8EECD;
 }
 footer a img {
     width: 80px;
     height: 80px;
+}
+.facebook_logo {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.twitter_logo {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.instagram_logo {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.search_button {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+.footer_info {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+footer .logo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+footer p {
+    grid-column: 2/4;
 }
