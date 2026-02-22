@@ -134,6 +134,7 @@ footer p {
     grid-column: 2/4;
 }
 .body_content {
+    background-color: #9FBE9D;
     display: grid;
     grid-template-columns: 0.5fr 0.5fr 1fr;
     grid-template-rows: 1fr 0.5fr 0.5fr;
@@ -143,27 +144,47 @@ footer p {
     grid-row: 1/2;
 }
 .temple_photo {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
     grid-column: 3/4;
     grid-row: 1/2;
 }
 .and_gate_photo {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
     grid-column: 1/2;
     grid-row: 3/4;
 }
 .or_gate_photo {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
     grid-column: 1/2;
     grid-row: 4/5;
 }
 .temple_photo_text {
+    font-size: 1.5em;
+    padding: 10px;
     grid-column: 3/4;
     grid-row: 2/4;
 }
 .and_gate_text {
+    font-size: 1.25em;
     grid-column: 2/3;
     grid-row: 3/4;
 }
 .or_gate_text {
+    font-size: 1.25em;
     grid-column: 2/3;
     grid-row: 4/5;
 }
-
+table, td {
+  justify-self: center;
+  padding: 40px;
+  border: 2px solid #596433;
+}
+h2 {
+    text-align: center;
+}
