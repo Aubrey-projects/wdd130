@@ -66,7 +66,10 @@
     to {opacity: 1;}
 }
 /* Followed W3Schools Slideshow Tutorial End*/
-
+body {
+    background-color: #9FBE9D;
+    margin: 0 auto;
+}
 nav {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -90,6 +93,7 @@ h1 {
     font-size: 4em;
 }
 h2 {
+    font-size: 2em;
     font-family: "Annie Use Your Telescope";
 }
 p {
@@ -107,14 +111,17 @@ footer a img {
     height: 80px;
 }
 .facebook_logo {
+    padding: 5px;
     grid-column: 1/2;
     grid-row: 2/3;
 }
 .twitter_logo {
+    padding: 5px;
     grid-column: 2/3;
     grid-row: 2/3;
 }
 .instagram_logo {
+    padding: 5px;
     grid-column: 3/4;
     grid-row: 2/3;
 }
@@ -136,6 +143,7 @@ footer a {
     text-decoration: none;
 }
 footer .logo {
+    padding: 10px;
     grid-column: 1/2;
     grid-row: 1/2;
 }
@@ -151,50 +159,71 @@ footer p {
     grid-template-rows: 1fr 0.5fr 0.5fr;
 }
 .table_info {
+    align-items: center;
     grid-column: 1/3;
     grid-row: 1/2;
 }
 .temple_photo {
-    padding: 10px;
-    width: 100%;
-    height: 100%;
+    filter: drop-shadow(8px 8px 2px #596433);
+    padding: 30px;
+    width: 800px;
+    height: 600px;
     grid-column: 3/4;
     grid-row: 1/2;
 }
 .and_gate_photo {
-    padding: 10px;
-    width: 100%;
-    height: 100%;
+    filter: drop-shadow(8px 8px 2px #596433);
+    padding: 30px;
+    width: 350px;
+    height: 500px;
     grid-column: 1/2;
     grid-row: 3/4;
 }
 .or_gate_photo {
-    padding: 10px;
-    width: 100%;
-    height: 100%;
+    filter: drop-shadow(8px 8px 2px #596433);
+    padding: 30px;
+    width: 350px;
+    height: 500px;
     grid-column: 1/2;
     grid-row: 4/5;
 }
 .temple_photo_text {
+    place-items: center;
+    font-family: "Annie Use Your Telescope";
+    color: #504537;
     font-size: 1.5em;
     padding: 10px;
     grid-column: 3/4;
     grid-row: 2/4;
 }
+.temple_photo_text p {
+    padding: 50px;
+    font-family: "Patrick Hand";
+    color: #504537;
+}
 .and_gate_text {
     font-size: 1.25em;
     grid-column: 2/3;
     grid-row: 3/4;
+    font-family: "Patrick Hand";
+    color: #504537;
 }
 .or_gate_text {
     font-size: 1.25em;
     grid-column: 2/3;
     grid-row: 4/5;
+    color: #504537;
+    font-family: "Patrick Hand";
 }
 table, td {
   justify-self: center;
   padding: 40px;
   border: 2px solid #596433;
+}
+th {
+    color: #504537;
+    font-size: 1.5em;
+    border: 2px solid #596433;
 }
 table {
     background-color: #E2F7DE;
@@ -207,6 +236,7 @@ table {
 }
 h2 {
     text-align: center;
+    color: #504537;
 }
 button {
     background-color: #B2734D;
