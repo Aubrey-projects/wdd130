@@ -73,7 +73,6 @@ nav {
     background-color: #F8EECD;
 }
 nav a {
-    background-color: #B2734D;
     padding: 15px;
     text-align: center;
     color: black;
@@ -97,6 +96,7 @@ p {
     font-family: "Patrick Hand";
 }
 footer {
+    font-family: "Annie Use Your Telescope";
     display: grid;
     grid-template-columns: repeat(3, 0.25fr) 1fr;
     grid-template-rows: 2fr;
@@ -123,14 +123,25 @@ footer a img {
     grid-row: 1/2;
 }
 .footer_info {
+    color: #504537;
+    text-decoration: none;
+    font-size: 1.25em;
     grid-column: 4/5;
     grid-row: 2/3;
+}
+.copyright {
+    font-size: 1.5em;
+}
+footer a {
+    text-decoration: none;
 }
 footer .logo {
     grid-column: 1/2;
     grid-row: 1/2;
 }
 footer p {
+    font-family: "Patrick Hand";
+    color: #504537;
     grid-column: 2/4;
 }
 .body_content {
@@ -187,4 +198,17 @@ table, td {
 }
 h2 {
     text-align: center;
+}
+button {
+    background-color: #B2734D;
+    border-radius: 10px;
+    margin: 30px 30px;
+    font-size: 1.7em;
+    font-family: "Caveat";
+}
+input {
+    font-size: 1.25em;
+}
+form {
+    font-size: 1.25em;
 }
