@@ -196,6 +196,15 @@ table, td {
   padding: 40px;
   border: 2px solid #596433;
 }
+table {
+    background-color: #E2F7DE;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 900px;
+    padding: 40px;
+    box-shadow: 5px 5px 2px #596433;
+    min-height: 400px;
+}
 h2 {
     text-align: center;
 }
