@@ -5,27 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Feed Sign Up</title>
-
-    <style>
-        * {
-            margin: 0;
-        }
-
-        body {
-            background: rgb(120, 96, 64);
-        }
-    </style>
-
-
-
-
+    <link href="styles/styles.css" rel="stylesheet">
 </head>
 
 <body>
     <div id="formContainer">
-        <h3>Sign Up for Daily Scripture Feed</h3>
+        <img class="photoJesus" src="images/jesus_feeds_5000.jpeg" alt="Jesus giving food to 5000 people">
+        <button type="button" id="closeBtn">X</button>
+        <h1>Daily Feed</h1>
+        <h2>Scripture a Day</h2>
         <form id="myForm">
-            <button type="button" id="closeBtn">X</button>
+            <h3><b>Sign Up for Daily Scripture Feed</b></h3>
             <label for="username">User Name:</label>
             <input type="text" id="username" name="username" required>
 
@@ -36,11 +26,11 @@
             <input type="email" id="email" name="email" required>
 
             <label>Gender:</label>
-            <div>
-                <input type="radio" id="male" name="gender" value="male" required>
-                <label for="male">Male</label>
-                <input type="radio" id="female" name="gender" value="female" required>
-                <label for="female">Female</label>
+            <div class="genders">
+                <input class="male" type="radio" id="male" name="gender" value="male" required>
+                <label class="male_label" for="male">Male</label>
+                <input class="female" type="radio" id="female" name="gender" value="female" required>
+                <label class="female_label" for="female">Female</label>
             </div>
 
             <section>
@@ -56,7 +46,16 @@
             <section>
                 <button type="submit">Submit</button>
             </section>
+
+            <div id="scriptures">
+                <img src="images/old_testament.webp" alt="The old testament">
+                <img src="images/new_testament.webp" alt="The new testament">
+                <img src="images/book_of_mormon.webp" alt="The book of mormon">
+                <img src="images/doctrine_and_covenants.webp" alt="The doctrine and covenants">
+                <img src="images/pearl_of_great_price.webp" alt="The pearl of great price">
+            </div>
         </form>
+
     </div>
 
     <div id="output"></div>
