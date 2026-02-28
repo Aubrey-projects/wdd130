@@ -66,6 +66,9 @@
     to {opacity: 1;}
 }
 /* Followed W3Schools Slideshow Tutorial End*/
+#ice_main h1 {
+    color: #504537;
+}
 body {
     background-color: #9FBE9D;
     margin: 0 auto;
