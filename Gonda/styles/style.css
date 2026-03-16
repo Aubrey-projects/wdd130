@@ -15,10 +15,13 @@
     text-shadow: 3px 2px 1px #C0392B;
 }
 #desitnation .child_element p {
-    font-size: 2em;
+    font-size: 1.8em;
     color: #F5F0E8;
     margin-top: -9%;
     text-shadow: 3px 2px 1px #2C2F5B;
+}
+#desitnation .background_photo {
+    height: 1000px;
 }
 body {
     margin: 0 auto;
