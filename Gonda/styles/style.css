@@ -8,12 +8,14 @@
     --accent2-color: #6B7C5C;
 }
 #desitnation .child_element h1 {
+    font-size: 2.5em;
     width: 70%;
     margin-top: -10%;
     color: #F5F0E8;
     text-shadow: 3px 2px 1px #C0392B;
 }
 #desitnation .child_element p {
+    font-size: 2em;
     color: #F5F0E8;
     margin-top: -9%;
     text-shadow: 3px 2px 1px #2C2F5B;
