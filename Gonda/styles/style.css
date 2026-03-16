@@ -17,7 +17,7 @@
 #desitnation .child_element p {
     font-size: 1.7em;
     color: #F5F0E8;
-    margin-top: -10%;
+    margin-top: -5%;
     text-shadow: 3px 2px 1px #2C2F5B;
 }
 #desitnation .background_photo {
@@ -31,6 +31,7 @@
 }
 body {
     margin: 0 auto;
+    background-color: #F5F0E8;
 }
 header {
     background-color: #F5F0E8;
@@ -96,16 +97,44 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+.grid_element3 {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .image_description {
-    border: 2px solid #808080;
+    border: 2px solid #2C2F5B;
     padding: 20px;
 }
+.grid_element3 .image_description {
+    border: 2px solid #6B7C5C;
+}
 .grid_element h2 {
+    font-size: 2em;
+    color: #2C2F5B;
     padding: 30px;
     text-align: center;
     grid-column: 1/3;
 }
+.grid_element p {
+    font-size: 1.5em;
+    color: #2C2F5B;
+}
 .grid_element img {
+    width: 700px;
+}
+.grid_element3 h2 {
+    font-size: 2em;
+    color: #6B7C5C;
+    padding: 30px;
+    text-align: center;
+    grid-column: 1/3;
+}
+.grid_element3 p {
+    font-size: 1.5em;
+    color: #6B7C5C;
+}
+.grid_element3 img {
     width: 700px;
 }
 #home h2 {
@@ -181,6 +210,9 @@ h1 {
     grid-column: 1/3;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.desitnation {
+    border-top: 5px solid #6B7C5C;
 }
 footer {
     background-color: #F5F0E8;
