@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
+/* remove borders around text */
 :root {
     --primary-color: #2C2F5B;
     --secondary-color: #F5F0E8;
@@ -8,7 +8,7 @@
     --accent2-color: #6B7C5C;
 }
 #desitnation .child_element h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     width: 70%;
     margin-top: -10%;
     color: #F5F0E8;
