@@ -113,7 +113,6 @@ h1 {
     grid-template-columns: 1fr 1fr;
 }
 .image_description {
-    border: 2px solid #2C2F5B;
     padding: 20px;
 }
 .grid_element h2 {
@@ -128,19 +127,24 @@ h1 {
     color: #2C2F5B;
 }
 .grid_element img {
-    width: 700px;
+    width: 550px;
 }
 #home h2 {
+    font-size: 2em;
     grid-column: 1/3;
     text-align: center;
     padding: 50px;
+    color: #2C2F5B;
 }
 #home h3 {
+    font-size: 2em;
     grid-column: 1/3;
     text-align: center;
     margin: 50px;
+    color: #2C2F5B;
 }
 #home h5 {
+    color: #F5F0E8;
     text-align: center;
     padding: 50px;
 }
@@ -148,16 +152,20 @@ h1 {
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
+#home p, h4 {
+    color: #2C2F5B;
+}
 .side_street {
     margin: 50px;
     width: 500px;
     height: 300px;
 }
 .side_street_text {
-    font-size: 1.25em;
+    font-size: 1.5em;
     padding: 50px;
 }
 .choose_us {
+    font-size: 1.2em;
     gap: 80px;
     margin: 50px;
     grid-column: 1/3;
@@ -174,6 +182,18 @@ h1 {
     justify-content: center;
     justify-items: center;
     align-items: center;
+}
+#home .start_exploring p {
+    color: #F5F0E8;
+    margin-top: -10%;
+    font-size: 1.3em;
+}
+.choose_us img {
+    box-shadow: 5px 5px 5px #6B7C5C;
+}
+.side_street {
+box-shadow: 5px 5px 5px #2C2F5B;
+width: 550px;
 }
 .child_element {
     grid-column: 1/3;
@@ -193,16 +213,19 @@ h1 {
 }
 .browse {
     border-radius: 5px;
-    border-color: #d3d3d3;
+    border-color: #6B7C5C;
     align-self: center;
     width: 300px;
     height: 50px;
+    color: #2C2F5B;
+    font-size: .75em;
 }
 .last_section {
-    background-color: #d3d3d3;
+    background-color: #6B7C5C;
     grid-column: 1/3;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    font-size: 1.3em;
 }
 .desitnation, .food {
     border-top: 5px solid #2C2F5B;
