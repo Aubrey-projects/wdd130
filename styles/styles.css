@@ -66,6 +66,25 @@
     to {opacity: 1;}
 }
 /* Followed W3Schools Slideshow Tutorial End*/
+#client_report_body {
+    color:#504537;
+    text-align: center;
+}
+#client_report_body button a{
+    text-decoration: none;
+    color: #504537;
+    padding: 30px;
+}
+#client_report_body h2{
+    font-size: 2.5em;
+}
+#client_report_body p{
+    font-size: 1.5em;
+}
+header nav {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
 #ice_main h1 {
     color: #504537;
     grid-column: 1/4;
